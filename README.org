@@ -4,6 +4,7 @@
 * Installation
 ** Installing oh-my-zsh
 I am using *oh-my-zsh* for theming zsh prompt.
+
 If you want to read more about it, please head to [[https://ohmyz.sh/][oh-my-zsh]] website.
 
 #+begin_src bash
@@ -17,13 +18,16 @@ sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/ins
 
 * Copying config
 Just clone the repo and copy the config to your home folder.
+
 If you are unsure about the steps follow the below step according to your distro.
 
 ** Steps
-*DO REMEMBER TO BACKUP YOUR CONFIG*
+#+begin_quote
+DO REMEMBER TO BACKUP YOUR CONFIG
+#+end_quote
 If you are here on `gitHub`, I suppose you have github installed in your system.
-*** copy and paste the below line in your terminal
-`git clone https://github.com/CISSSCO/myzshrc_config.git`
+*** Copy and paste the below line in your terminal
+~git clone https://github.com/CISSSCO/myzshrc_config.git~
 
 *** For ubuntu, debian
 #+begin_src bash
@@ -46,3 +50,7 @@ cd myzshrc_config/arch/
 cp .zshrc ~/.zshrc
 
 #+end_src
+
+#+BEGIN_QUOTE
+ENJOY!!!
+#+END_QUOTE
