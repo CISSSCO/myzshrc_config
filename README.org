@@ -1,0 +1,48 @@
+#+title: ZSHRC
+#+author: Cisco Ramon
+
+* Installation
+** Installing oh-my-zsh
+I am using *oh-my-zsh* for theming zsh prompt.
+If you want to read more about it, please head to [[https://ohmyz.sh/][oh-my-zsh]] website.
+
+#+begin_src bash
+# installign oh-my-zsh via curl
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# installing oh-my-zsh via wget
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+#+end_src
+
+
+* Copying config
+Just clone the repo and copy the config to your home folder.
+If you are unsure about the steps follow the below step according to your distro.
+
+** Steps
+*DO REMEMBER TO BACKUP YOUR CONFIG*
+If you are here on `gitHub`, I suppose you have github installed in your system.
+*** copy and paste the below line in your terminal
+`git clone https://github.com/CISSSCO/myzshrc_config.git`
+
+*** For ubuntu, debian
+#+begin_src bash
+# backup your config first
+cp ~/.zshrc ~/.zshrc.backup
+# go to the folder
+cd myzshrc_config/ubuntu/
+# go to ubuntu folder
+cp .zshrc ~/.zshrc
+
+#+end_src
+
+*** arch linux
+#+begin_src bash
+# backup your config first
+cp ~/.zshrc ~/.zshrc.backup
+# go to the folder
+cd myzshrc_config/arch/
+# go to ubuntu folder
+cp .zshrc ~/.zshrc
+
+#+end_src

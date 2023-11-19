@@ -177,6 +177,9 @@ alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | n
 #Cleanup orphaned packages
 alias autoremove='sudo apt autoremove'
 
+#personal software alias
+alias doom='~/.config/emacs/bin/doom run'
+
 # # ex = EXtractor for all kinds of archives
 # # usage: ex <file>
 ex ()
